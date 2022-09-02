@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button class="tablink" onclick="openPage('Home', this, 'grey')" id="defaultOpen">Home</button>
+  <button class="tablink" onclick="openPage('News', this, 'green')" >News</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'cyan')">Contact Us</button>
+  <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact Us</h3>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+
+    <label for="lname">Last Name</label> 
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+    <label for="email">Email</label> 
+    <input type="email" id="lname" name="email" placeholder="Your email address..."><br>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d63413.288979466386!2d3.309283274118077!3d6.605782039863313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x103b922c0c6745f3%3A0xecb7e5d145c84de5!2s23%20Ogunlowo%20St%2C%20Ikeja%20101233%2C%20Ikeja%2C%20Nigeria!3m2!1d6.605697999999999!2d3.344303!4m0!5e0!3m2!1sen!2sng!4v1662074917301!5m2!1sen!2sng" width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <table style="width:100%">
+    <tr>
+      <th>DAYS</th>
+      <th>8-10am</th>
+      <th>10am-12pm</th>
+      <th>1pm-3pm</th>
+      <th>3pm-5pm</th>
+      <th>5pm-6:00pm</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>MEG 507</td>
+      <td>GEG 511</td>
+      <td>CEG 508</td>
+      <td>MME 567</td>
+      <td>FEG 509</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>MEG 507</td>
+      <td>GEG 511</td>
+      <td>CEG 508</td>
+      <td>MME 567</td>
+      <td>FEG 509</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>MEG 507</td>
+      <td>GEG 511</td>
+      <td>CEG 508</td>
+      <td>MME 567</td>
+      <td>FEG 509</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>MEG 507</td>
+      <td>GEG 511</td>
+      <td>CEG 508</td>
+      <td>MME 567</td>
+      <td>FEG 509</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>MEG 507</td>
+      <td>GEG 511</td>
+      <td>CEG 508</td>
+      <td>MME 567</td>
+      <td>FEG 509</td>
+    </tr>
+  </table>
+</div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
